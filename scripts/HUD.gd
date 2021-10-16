@@ -13,7 +13,7 @@ func show_game_over() -> void:
 	show_message("Game over")
 	yield($MessageTimer, "timeout")
 	
-	$Message.text = "Dodge the \ncreeps!"
+	$Message.text = "Dodge the \ncreeps"
 	$Message.show()
 	yield(get_tree().create_timer(1), "timeout")
 	$StartButton.show()
