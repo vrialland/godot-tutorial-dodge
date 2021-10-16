@@ -10,8 +10,8 @@ config_version=4
 
 [application]
 
-config/name="Nouveau Projet De Jeu"
-run/main_scene="res://scenes/Player.tscn"
+config/name="Dodge"
+run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
 [display]
